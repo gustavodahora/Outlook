@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Outlook</string>
+    <string name="box">Caixa de Entrada</string>
+    <string name="others">Outros</string>
+    <string name="filter">Filtrar</string>
+    <string name="highlights">Destaques</string>
+    <string name="last_week">Semana passada</string>
+    <string name="search">Search Icon</string>
+    <string name="email">Email</string>
+    <string name="edititem">editItem</string>
+    <string name="search_bottom">Buscar</string>
+    <string name="calendar">Calendar</string>
 </resources>
