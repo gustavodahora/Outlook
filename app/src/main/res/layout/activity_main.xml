@@ -57,7 +57,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:background="@drawable/radious_gray_light"
-            android:padding="6dp"
+            android:paddingVertical="6dp"
+            android:paddingHorizontal="10dp"
             android:text="@string/others"
             android:textColor="@color/white"
             android:textStyle="bold"
@@ -73,7 +74,8 @@
             android:layout_marginTop="25dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/radious_gray_light"
-            android:padding="6dp"
+            android:paddingVertical="6dp"
+            android:paddingHorizontal="10dp"
             android:text="@string/filter"
             android:textColor="@color/white"
             android:textStyle="bold"
@@ -89,7 +91,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:background="@drawable/radious_gray"
-            android:padding="6dp"
+            android:paddingVertical="6dp"
+            android:paddingHorizontal="10dp"
             android:text="@string/highlights"
             android:textColor="@color/white"
             android:textStyle="bold"
@@ -99,16 +102,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/last_week"
-        android:textColor="@color/gray_light2"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"/>
+
 
     <View
         android:id="@+id/line_bottom"
@@ -133,7 +127,6 @@
             android:id="@+id/imageView"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_marginTop="4dp"
             android:src="@drawable/ic_baseline_email_24"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -207,5 +200,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_baseline_edit_24"
         android:contentDescription="@string/edititem" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/line_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.514" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

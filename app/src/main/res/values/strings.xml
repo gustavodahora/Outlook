@@ -10,4 +10,8 @@
     <string name="edititem">editItem</string>
     <string name="search_bottom">Buscar</string>
     <string name="calendar">Calendar</string>
+    <string name="title">Lucas da Tribe</string>
+    <string name="subject">[Processo Seletivo] Últimas vagas</string>
+    <string name="content">Inscreva-se no processo seletivo da turma XP</string>
+    <string name="time">10:20</string>
 </resources>
